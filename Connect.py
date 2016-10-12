@@ -21,7 +21,7 @@ def myplayer(text):
 myip=socket.gethostbyname(socket.gethostname())
 if myip is "127.0.0.1":
     print("You are not connected to the internet!")
-    myplayer("C:\Program Files\noint.wav")
+    myplayer("noint.wav")
 else:
     print("You are connected to the internet!")
-    myplayer("C:\Program Files\int.wav")
+    myplayer("int.wav")
